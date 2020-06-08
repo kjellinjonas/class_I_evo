@@ -1,0 +1,1053 @@
+********************************************************************************
+MEME - Motif discovery tool
+********************************************************************************
+MEME version 5.0.3 (Release date: Sun Dec 02 18:41:45 2018 -0800)
+
+For further information on how to interpret please access http://meme-suite.org/.
+To get a copy of the MEME software please access http://meme-suite.org.
+
+********************************************************************************
+
+
+********************************************************************************
+REFERENCE
+********************************************************************************
+If you use this program in your research, please cite:
+
+Timothy L. Bailey and Charles Elkan,
+"Fitting a mixture model by expectation maximization to discover
+motifs in biopolymers", Proceedings of the Second International
+Conference on Intelligent Systems for Molecular Biology, pp. 28-36,
+AAAI Press, Menlo Park, California, 1994.
+********************************************************************************
+
+
+********************************************************************************
+TRAINING SET
+********************************************************************************
+PRIMARY SEQUENCES= all25_150bp_upstream.fa
+CONTROL SEQUENCES= --none--
+ALPHABET= ACGT
+Sequence name            Weight Length  Sequence name            Weight Length  
+-------------            ------ ------  -------------            ------ ------  
+asu_can_40|NW_012236528. 1.0000    150  asu_can_39|NW_012236528. 1.0000    150  
+asu_can_17|NW_012236504. 1.0000    150  asu_can_18|NW_012236504. 1.0000    150  
+asu_can_37|NW_012236530. 1.0000    150  asu_can_38|NW_012236529. 1.0000    150  
+asu_can_20|NW_012236522. 1.0000    150  asu_can_3|NW_012236532.1 1.0000    150  
+asu_can_26|NW_012236522. 1.0000    150  asu_can_21|NW_012236504. 1.0000    150  
+asu_can_36|NW_012236504. 1.0000    150  asu_can_19|NW_012236531. 1.0000    150  
+asu_can_4|NW_012236522.1 1.0000    150  asu_can_2|NW_012236506.1 1.0000    150  
+asu_can_1|NW_012236527.1 1.0000    150  asu_can_5|NW_012236506.1 1.0000    150  
+r41|DDB0232429:5946841-5 1.0000    150  r31|DDB0232432:1473309-1 1.0000    150  
+r32|DDB0232431:2793765-2 1.0000    150  ddi_can_1|DDB0232431:166 1.0000    150  
+r59|DDB0232433:2295028-2 1.0000    150  r52|DDB0232431:961440-96 1.0000    150  
+r60|DDB0232433:2298020-2 1.0000    150  r49|DDB0232431:958300-95 1.0000    150  
+r25|DDB0232430:1101112-1 1.0000    150  r35|DDB0232428:3001042-3 1.0000    150  
+r22|DDB0232431:960337-96 1.0000    150  r23C|DDB0232431:1662745- 1.0000    150  
+r47|DDB0232430:1101641-1 1.0000    150  r51|DDB0232431:959643-95 1.0000    150  
+r24A|DDB0232431:1663732- 1.0000    150  r34|DDB0232431:3574887-3 1.0000    150  
+r56|DDB0232431:2792237-2 1.0000    150  r30|DDB0232428:4375387-4 1.0000    150  
+r43|DDB0232429:4084971-4 1.0000    150  r54|DDB0232431:1675814-1 1.0000    150  
+r21|DDB0232431:956876-95 1.0000    150  ddi_can_398|DDB0232430:1 1.0000    150  
+r33|DDB0232430:4352740-4 1.0000    150  r50|DDB0232431:959145-95 1.0000    150  
+r29|DDB0232429:8304368-8 1.0000    150  ddi_can_2|DDB0232431:957 1.0000    150  
+r45|DDB0232429:8304008-8 1.0000    150  r28|DDB0232428:1449693-1 1.0000    150  
+r57|DDB0232431:2793377-2 1.0000    150  r23A|DDB0232431:1668862- 1.0000    150  
+r36|DDB0232430:2300574-2 1.0000    150  r62|DDB0232433:3354080-3 1.0000    150  
+r24B|DDB0232431:1675708- 1.0000    150  r23B|DDB0232431:1667000- 1.0000    150  
+ddi_can_131|DDB0232432:5 1.0000    150  r44|DDB0232429:5966088-5 1.0000    150  
+r26|DDB0232431:1668050-1 1.0000    150  r46|DDB0232430:1100444-1 1.0000    150  
+r42|DDB0232429:4084651-4 1.0000    150  dfa_can_76|NW_004457723. 1.0000    150  
+dfa_can_77|NW_004457735. 1.0000    150  dfa_can_81|NW_004457736. 1.0000    150  
+dfa_can_62|NW_004457723. 1.0000    150  dfa_can_113|NW_004457644 1.0000    150  
+dfa_can_1|NW_004457695.1 1.0000    150  dla_can_46|LODT01000004. 1.0000    150  
+dla_can_172|LODT01000042 1.0000    150  dla_can_4|LODT01000006.1 1.0000    150  
+dla_can_2|LODT01000006.1 1.0000    150  dla_can_1|LODT01000011.1 1.0000    150  
+dla_can_5|LODT01000037.1 1.0000    150  dla_can_85|LODT01000035. 1.0000    150  
+dla_can_6|LODT01000020.1 1.0000    150  dla_can_27|LODT01000022. 1.0000    150  
+dla_can_87|LODT01000022. 1.0000    150  dla_can_3|LODT01000020.1 1.0000    150  
+dla_can_248|LODT01000035 1.0000    150  dla_can_11|LODT01000022. 1.0000    150  
+dla_can_7|LODT01000039.1 1.0000    150  dla_can_26|LODT01000039. 1.0000    150  
+dla_can_88|LODT01000004. 1.0000    150  dla_can_176|LODT01000004 1.0000    150  
+dla_can_9|LODT01000047.1 1.0000    150  dla_can_86|LODT01000037. 1.0000    150  
+dpu_can_239|scaffold_459 1.0000    150  dpu_can_348|scaffold_184 1.0000    150  
+dpu_can_242|scaffold_95: 1.0000    150  dpu_can_1|scaffold_250:1 1.0000    150  
+dpu_can_2|scaffold_20:98 1.0000    150  dpu_can_305|scaffold_234 1.0000    150  
+dpu_can_118|scaffold_243 1.0000    150  dpu_can_125|scaffold_554 1.0000    150  
+dpu_can_119|scaffold_315 1.0000    150  dpu_can_121|scaffold_509 1.0000    150  
+dpu_can_117|scaffold_41: 1.0000    150  dpu_can_115|scaffold_6:1 1.0000    150  
+dpu_can_123|scaffold_461 1.0000    150  dpu_can_131|scaffold_29: 1.0000    150  
+dpu_can_347|scaffold_6:3 1.0000    150  dpu_can_303|scaffold_41: 1.0000    150  
+dpu_can_241|scaffold_404 1.0000    150  dpu_can_302|scaffold_138 1.0000    150  
+dpu_can_120|scaffold_461 1.0000    150  dpu_can_237|scaffold_74: 1.0000    150  
+dpu_can_304|scaffold_227 1.0000    150  dpu_can_11|scaffold_153: 1.0000    150  
+dpu_can_240|scaffold_53: 1.0000    150  dpu_can_122|scaffold_60: 1.0000    150  
+dpu_can_116|scaffold_35: 1.0000    150  dpu_can_124|scaffold_315 1.0000    150  
+dpu_can_591|scaffold_509 1.0000    150  dpu_can_127|scaffold_185 1.0000    150  
+ppa_can_5|NW_008805092.1 1.0000    150  ppa_can_13|NW_008805072. 1.0000    150  
+ppa_can_9|NW_008805092.1 1.0000    150  ppa_can_100|NW_008805072 1.0000    150  
+ppa_can_96|NW_008805092. 1.0000    150  ppa_can_26|NW_008805074. 1.0000    150  
+ppa_can_8|NW_008805063.1 1.0000    150  ppa_can_234|NW_008805068 1.0000    150  
+ppa_can_1|NW_008805089.1 1.0000    150  ppa_can_4|NW_008805092.1 1.0000    150  
+ppa_can_2|NW_008805092.1 1.0000    150  ppa_can_235|NW_008805066 1.0000    150  
+ppa_can_10|NW_008805063. 1.0000    150  ppa_can_3|NW_008805092.1 1.0000    150  
+ppa_can_97|NW_008805063. 1.0000    150  ppa_can_98|NW_008805076. 1.0000    150  
+ppa_can_7|NW_008805092.1 1.0000    150  ppa_can_6|NW_008805092.1 1.0000    150  
+********************************************************************************
+
+********************************************************************************
+COMMAND LINE SUMMARY
+********************************************************************************
+This information can also be useful in the event you wish to report a
+problem with the MEME software.
+
+command: meme all25_150bp_upstream.fa -mod zoops -nmotifs 3 -minw 4 -maxw 8 -dna 
+
+model:  mod=         zoops    nmotifs=         3    evt=           inf
+objective function:           em=       E-value of product of p-values
+                              starts=   E-value of product of p-values
+strands: +
+width:  minw=            4    maxw=            8
+nsites: minsites=        2    maxsites=      126    wnsites=       0.8
+theta:  spmap=         uni    spfuzz=        0.5
+em:     prior=   dirichlet    b=            0.01    maxiter=        50
+        distance=    1e-05
+trim:   wg=             11    ws=              1    endgaps=       yes
+data:   n=           18900    N=             126
+sample: seed=            0    hsfrac=          0
+        searchsize=  18900    norand=         no    csites=       1000
+Letter frequencies in dataset:
+A 0.388 C 0.105 G 0.0953 T 0.411 
+Background letter frequencies (from file dataset with add-one prior applied):
+A 0.388 C 0.105 G 0.0953 T 0.411 
+Background model order: 0
+********************************************************************************
+
+
+********************************************************************************
+MOTIF WCCCATAA MEME-1	width =   8  sites = 113  llr = 1012  E-value = 1.4e-156
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 Description
+--------------------------------------------------------------------------------
+Simplified        A  43::a:a9
+pos.-specific     C  :7aa:2::
+probability       G  ::::::::
+matrix            T  6::::7::
+
+         bits    3.4   **    
+                 3.1   **    
+                 2.7   **    
+                 2.4   **    
+Relative         2.0   **    
+Entropy          1.7  ***    
+(12.9 bits)      1.4  **** * 
+                 1.0  **** **
+                 0.7  *******
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           TCCCATAA
+consensus            AA   C  
+sequence                     
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value              Site
+-------------             ----- ---------            --------
+dpu_can_124|scaffold_315     85  2.92e-06 ATTATTTAAA TCCCACAA TAATCAATAG
+dpu_can_123|scaffold_461     84  2.92e-06 ATTTATTAAA TCCCACAA TAATCAATTA
+dpu_can_121|scaffold_509     84  2.92e-06 ATTTGTTAAA TCCCACAA AAATCAATTA
+r42|DDB0232429:4084651-4     83  2.92e-06 TTTATGATTA TCCCACAA AGTTCAATTT
+r46|DDB0232430:1100444-1     69  2.92e-06 TTTGAAACTA TCCCACAA AGTAATTTTT
+r26|DDB0232431:1668050-1     73  2.92e-06 GTTAATACTA TCCCACAA AATTATTTTT
+r44|DDB0232429:5966088-5     76  2.92e-06 TGTTTTATTA TCCCACAA AGTTATTTTT
+r24B|DDB0232431:1675708-     70  2.92e-06 TATATTGAAA TCCCACAA AATTATTTTT
+r62|DDB0232433:3354080-3     74  2.92e-06 GGTTTATCTA TCCCACAA AATTATTTTT
+r29|DDB0232429:8304368-8     58  2.92e-06 TTATTATTTA TCCCACAA ATTTTTTTTT
+r21|DDB0232431:956876-95     53  2.92e-06 GTCAAAACTA TCCCACAA AATTATTTTT
+r54|DDB0232431:1675814-1     64  2.92e-06 GAACTATCTA TCCCACAA ATTTTTATTT
+r34|DDB0232431:3574887-3     68  2.92e-06 TTTTTTGTAA TCCCACAA AACAATTTTA
+r24A|DDB0232431:1663732-     73  2.92e-06 GTTAATACTA TCCCACAA AATTATTTTT
+r51|DDB0232431:959643-95     54  2.92e-06 GTTGAAACTA TCCCACAA AATTATTTTT
+r47|DDB0232430:1101641-1     59  2.92e-06 TTAAAATCAA TCCCACAA ATTATTTTTT
+r25|DDB0232430:1101112-1     70  2.92e-06 ATTGGCACTA TCCCACAA AATTATTTTT
+r49|DDB0232431:958300-95     71  2.92e-06 GTTGGCACTA TCCCACAA AATTATTTTT
+r60|DDB0232433:2298020-2     69  2.92e-06 GGAAAGAAAA TCCCACAA CCAAAAATTA
+r52|DDB0232431:961440-96     72  2.92e-06 TTTATTGAAA TCCCACAA AATTATTTTT
+r59|DDB0232433:2295028-2     68  2.92e-06 AAAAACAAAA TCCCACAA CCAAAAATAA
+r32|DDB0232431:2793765-2     56  2.92e-06 TTTGATTCTG TCCCACAA AATTATTTTT
+r41|DDB0232429:5946841-5     57  2.92e-06 AAACTAAGTA TCCCACAA AATAACTTTT
+dpu_can_127|scaffold_185     87  1.43e-05 ATTTATTTAT TCCCATAA TTTAATATTA
+dpu_can_591|scaffold_509     85  1.43e-05 TTAAATATCG TCCCATAA AATTAATATT
+dpu_can_116|scaffold_35:     82  1.43e-05 ATAATTTTTA TCCCATAA AAAAAACAAA
+dpu_can_240|scaffold_53:     86  1.43e-05 GAGGATATTC TCCCATAA TTTTATATTT
+dpu_can_304|scaffold_227     86  1.43e-05 GGATATTTAG TCCCATAA TTCAATATTT
+dpu_can_237|scaffold_74:     85  1.43e-05 TTGGATTTAG TCCCATAA TTTGATATTT
+dpu_can_120|scaffold_461     86  1.43e-05 TCAAACATCA TCCCATAA AATCAAATTA
+dpu_can_302|scaffold_138     83  1.43e-05 AAAATTATTA TCCCATAA AAAAACAAAT
+dpu_can_241|scaffold_404     83  1.43e-05 GGATATTTAG TCCCATAA TTTTATATTT
+dpu_can_303|scaffold_41:    100  1.43e-05 AAAATCTTGA TCCCATAA CAAATCGATG
+dpu_can_117|scaffold_41:     85  1.43e-05 CAAAAATAAA TCCCATAA AAAAAATAAA
+dpu_can_119|scaffold_315     86  1.43e-05 TCAAACATCA TCCCATAA AATCAAATTA
+dpu_can_305|scaffold_234     83  1.43e-05 GGATATTTAG TCCCATAA TTCAATATTT
+dpu_can_1|scaffold_250:1     83  1.43e-05 AAAATTTTAG TCCCATAA CAAAACCAAA
+dpu_can_242|scaffold_95:     85  1.43e-05 GGATATTTAG TCCCATAA TTTTATATTT
+dpu_can_239|scaffold_459     85  1.43e-05 GGATATTTAG TCCCATAA TTTAATATTT
+dfa_can_1|NW_004457695.1     82  1.43e-05 cACACCCAAT TCCCATAA ACCTATATTC
+dfa_can_113|NW_004457644     82  1.43e-05 TTATTTGGTC TCCCATAA AAACtctatt
+dfa_can_81|NW_004457736.    124  1.43e-05 TTGCCCATTC TCCCATAA AATTTAGAAG
+dfa_can_77|NW_004457735.     79  1.43e-05 CGAGGATTCT TCCCATAA GGTCAAATTT
+r36|DDB0232430:2300574-2     83  1.43e-05 AAAAAAAAAA TCCCATAA AAATTTTATT
+r23A|DDB0232431:1668862-     70  1.43e-05 GAGGATTGGA TCCCATAA TTCTATTTTT
+r28|DDB0232428:1449693-1     70  1.43e-05 AAATTGTTAA TCCCATAA AAAATTTTAA
+r33|DDB0232430:4352740-4     71  1.43e-05 TTTTAAGATA TCCCATAA TATATTTTTT
+r30|DDB0232428:4375387-4     71  1.43e-05 AGAAATAAAA TCCCATAA AGTTTTTTTT
+r23C|DDB0232431:1662745-     70  1.43e-05 GAGGATTGGA TCCCATAA TTCTATTTTT
+r22|DDB0232431:960337-96     73  1.43e-05 GATGATCAAA TCCCATAA TTCTATTTTT
+r35|DDB0232428:3001042-3     85  1.43e-05 AAAAAAAAAA TCCCATAA AAAATTTATT
+asu_can_19|NW_012236531.     84  1.43e-05 GATGATCCAG TCCcataa ctgattgatt
+asu_can_3|NW_012236532.1     85  1.43e-05 TTGTCAATTG TCCCATAA CTGTTGGAGT
+asu_can_20|NW_012236522.     84  1.43e-05 AGTGATGAGA Tcccataa tcaatcaaac
+asu_can_18|NW_012236504.     83  1.43e-05 ATCATATCTG TCCCATAA TGAATTGATA
+asu_can_17|NW_012236504.     90  1.43e-05 TGTGTATCTA TCCCATAA TGTTTCTGAA
+dpu_can_122|scaffold_60:     84  2.79e-05 TTTAAATTAA ACCCATAA CCCAATTATT
+dpu_can_11|scaffold_153:     84  2.79e-05 GTATAGACTA ACCCATAA ATTGTAAATA
+dpu_can_347|scaffold_6:3     86  2.79e-05 AAATAAAATT ACCCATAA ATTTTTTTTC
+dpu_can_131|scaffold_29:     87  2.79e-05 ATATTATTAG ACCCATAA TTTAATATTT
+dpu_can_115|scaffold_6:1     85  2.79e-05 TTAATCAAAA ACCCATAA ATAAAGAAAT
+dpu_can_118|scaffold_243     86  2.79e-05 TTATTCAAAA ACCCATAA ATAAAGAAAT
+dpu_can_2|scaffold_20:98     82  2.79e-05 TTTAATCATA ACCCATAA ATAAAGAACT
+dla_can_3|LODT01000020.1     85  2.79e-05 aaaaattaac acccataa atatattaaa
+dfa_can_62|NW_004457723.     80  2.79e-05 tcCATGGAAC ACCCATAA ATGATAGTTT
+dfa_can_76|NW_004457723.     80  2.79e-05 GCAACACTCA ACCCATAA TCGTTAACCA
+r31|DDB0232432:1473309-1     73  2.79e-05 AAAAAATATA ACCCATAA TTTTTTTTTT
+asu_can_5|NW_012236506.1     83  2.79e-05 TGTGCCCATG ACCCataa atgtgattga
+asu_can_2|NW_012236506.1     84  2.79e-05 TCAACATAGA ACCcataa atatgattga
+asu_can_37|NW_012236530.     84  2.79e-05 CGATGATCAG ACCCATAA TGCCTTGACA
+dla_can_88|LODT01000004.     83  8.09e-05 gttgaatttc taccataa ttttttatta
+ddi_can_398|DDB0232430:1     49  9.10e-05 ACAGTTGAGC AACCACAA CAACCAACCA
+ppa_can_6|NW_008805092.1     84  1.31e-04 AGAACATTCA AACCATAA CTACatttaa
+ppa_can_98|NW_008805076.     84  1.31e-04 aaagaaaaat aacCATAA ACATTGGGAT
+ppa_can_97|NW_008805063.     82  1.31e-04 ataattttca aaccataa ataaattatt
+ppa_can_3|NW_008805092.1     82  1.31e-04 AGAACATTCC AAccataa tcaaattata
+ppa_can_10|NW_008805063.     84  1.31e-04 TAACAACTCA AACCATAA ACTATCATTC
+ppa_can_2|NW_008805092.1     81  1.31e-04 agaacaTTCC AACCATAa tcaaatgatt
+ppa_can_4|NW_008805092.1     84  1.31e-04 GTACATCACA AACCataa ttaaatgaaa
+ppa_can_1|NW_008805089.1     85  1.31e-04 TCTTGATCAA AACCATAA GTTttagaaa
+ppa_can_8|NW_008805063.1     85  1.31e-04 ctCATTTTCA AACCATAA GTAATAATTG
+ppa_can_96|NW_008805092.     81  1.31e-04 agaacaTTCC AACCATAa tcaaatgatt
+ppa_can_9|NW_008805092.1     81  1.31e-04 agaAGATTCA AACCATAA CTTCatttaa
+ppa_can_13|NW_008805072.     82  1.31e-04 atttAAAATG AACCATAA GTGTCAGAGT
+ppa_can_5|NW_008805092.1     83  1.31e-04 AGAACATTCC AACCATAA Ccaaatgatt
+dla_can_9|LODT01000047.1     82  1.31e-04 aaatcatacC AAccataa aaaataattt
+dla_can_26|LODT01000039.     82  1.31e-04 taaagtGAAC AACCATAA TGTGTATTga
+dla_can_7|LODT01000039.1     83  1.31e-04 ataatgacCA AACCATAA ACATATATTT
+dla_can_11|LODT01000022.     82  1.31e-04 aataatgacA AACCATAA ACATATAATT
+dla_can_87|LODT01000022.     84  1.31e-04 GTTTAAGTAA AACCATAA TTCctcattt
+dla_can_27|LODT01000022.     83  1.31e-04 AAGTGCACAC AACCATAA TGTGTATTca
+dla_can_6|LODT01000020.1     83  1.31e-04 ttggGTTTCA AACcataa ttaaaattta
+dla_can_85|LODT01000035.     85  1.31e-04 ATGTAATTCA AACCATAA ATcataaaat
+dla_can_5|LODT01000037.1     83  1.31e-04 aaatttttaa aaccatAA AAAACATGGA
+dla_can_1|LODT01000011.1     85  1.31e-04 aatttttaaa aaccatAA ATAATCatac
+dla_can_2|LODT01000006.1     81  1.31e-04 tataaatttg aaccataa attgaaaaaa
+dla_can_4|LODT01000006.1     81  1.31e-04 ttttttccGA AACCataa attctataaa
+asu_can_4|NW_012236522.1     82  1.31e-04 GAGTACAAAT AACCATAA ATTAAGATTG
+asu_can_26|NW_012236522.     84  1.31e-04 TTGTGATTGA AACcataa ttataaataa
+asu_can_39|NW_012236528.     84  1.31e-04 atatgatAAG AACCATaa ctcatcacca
+asu_can_40|NW_012236528.     84  1.31e-04 TAGATTGTTT AACCATAA CAAATTATTG
+dla_can_46|LODT01000004.     85  1.54e-04 TTGCTCAATA TCCCATAT CTTtgcaaaa
+r23B|DDB0232431:1667000-     71  1.54e-04 GAGGATTGGA TCCCATAT TTCTATTTTT
+asu_can_1|NW_012236527.1     82  1.54e-04 CTGGCAATCA TCCCATAT TGattcatta
+r57|DDB0232431:2793377-2     73  1.83e-04 TAACAATCAA TCCCAAAA ATTATTTTTT
+r56|DDB0232431:2792237-2     55  2.00e-04 ACAAAGTGGA ACCCAAAA TCCTATTTTT
+asu_can_21|NW_012236504.     84  2.18e-04 GAAAGAAATA GACCATAA TTATTCTATT
+asu_can_36|NW_012236504.     82  2.29e-04 CCTTGGACAT CACCATAA CCAATCCAGG
+r45|DDB0232429:8304008-8    136  2.40e-04 AAAATACATT TACCACAT AATTAAG   
+ddi_can_131|DDB0232432:5     11  3.09e-04 TTTATAATTG TACCATAG ACACTTGTAT
+dla_can_176|LODT01000004     50  4.17e-04 AAAAGTTGTA TACCATCA AATCAATact
+ppa_can_100|NW_008805072     37  4.70e-04 CCAATTACAA TTCCACAA TATCAATCAC
+ppa_can_235|NW_008805066     43  6.24e-04 TTCAGATGTC ACCCAAAT CGAATTGTTT
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+dpu_can_124|scaffold_315          2.9e-06  84_[+1]_58
+dpu_can_123|scaffold_461          2.9e-06  83_[+1]_59
+dpu_can_121|scaffold_509          2.9e-06  83_[+1]_59
+r42|DDB0232429:4084651-4          2.9e-06  82_[+1]_60
+r46|DDB0232430:1100444-1          2.9e-06  68_[+1]_74
+r26|DDB0232431:1668050-1          2.9e-06  72_[+1]_70
+r44|DDB0232429:5966088-5          2.9e-06  75_[+1]_67
+r24B|DDB0232431:1675708-          2.9e-06  69_[+1]_73
+r62|DDB0232433:3354080-3          2.9e-06  73_[+1]_69
+r29|DDB0232429:8304368-8          2.9e-06  57_[+1]_85
+r21|DDB0232431:956876-95          2.9e-06  52_[+1]_90
+r54|DDB0232431:1675814-1          2.9e-06  63_[+1]_79
+r34|DDB0232431:3574887-3          2.9e-06  67_[+1]_75
+r24A|DDB0232431:1663732-          2.9e-06  72_[+1]_70
+r51|DDB0232431:959643-95          2.9e-06  53_[+1]_89
+r47|DDB0232430:1101641-1          2.9e-06  58_[+1]_84
+r25|DDB0232430:1101112-1          2.9e-06  69_[+1]_73
+r49|DDB0232431:958300-95          2.9e-06  70_[+1]_72
+r60|DDB0232433:2298020-2          2.9e-06  68_[+1]_74
+r52|DDB0232431:961440-96          2.9e-06  71_[+1]_71
+r59|DDB0232433:2295028-2          2.9e-06  67_[+1]_75
+r32|DDB0232431:2793765-2          2.9e-06  55_[+1]_87
+r41|DDB0232429:5946841-5          2.9e-06  56_[+1]_86
+dpu_can_127|scaffold_185          1.4e-05  86_[+1]_56
+dpu_can_591|scaffold_509          1.4e-05  84_[+1]_58
+dpu_can_116|scaffold_35:          1.4e-05  81_[+1]_61
+dpu_can_240|scaffold_53:          1.4e-05  85_[+1]_57
+dpu_can_304|scaffold_227          1.4e-05  85_[+1]_57
+dpu_can_237|scaffold_74:          1.4e-05  84_[+1]_58
+dpu_can_120|scaffold_461          1.4e-05  85_[+1]_57
+dpu_can_302|scaffold_138          1.4e-05  82_[+1]_60
+dpu_can_241|scaffold_404          1.4e-05  82_[+1]_60
+dpu_can_303|scaffold_41:          1.4e-05  99_[+1]_43
+dpu_can_117|scaffold_41:          1.4e-05  84_[+1]_58
+dpu_can_119|scaffold_315          1.4e-05  85_[+1]_57
+dpu_can_305|scaffold_234          1.4e-05  82_[+1]_60
+dpu_can_1|scaffold_250:1          1.4e-05  82_[+1]_60
+dpu_can_242|scaffold_95:          1.4e-05  84_[+1]_58
+dpu_can_239|scaffold_459          1.4e-05  84_[+1]_58
+dfa_can_1|NW_004457695.1          1.4e-05  81_[+1]_61
+dfa_can_113|NW_004457644          1.4e-05  81_[+1]_61
+dfa_can_81|NW_004457736.          1.4e-05  123_[+1]_19
+dfa_can_77|NW_004457735.          1.4e-05  78_[+1]_64
+r36|DDB0232430:2300574-2          1.4e-05  82_[+1]_60
+r23A|DDB0232431:1668862-          1.4e-05  69_[+1]_73
+r28|DDB0232428:1449693-1          1.4e-05  69_[+1]_73
+r33|DDB0232430:4352740-4          1.4e-05  70_[+1]_72
+r30|DDB0232428:4375387-4          1.4e-05  70_[+1]_72
+r23C|DDB0232431:1662745-          1.4e-05  69_[+1]_73
+r22|DDB0232431:960337-96          1.4e-05  72_[+1]_70
+r35|DDB0232428:3001042-3          1.4e-05  84_[+1]_58
+asu_can_19|NW_012236531.          1.4e-05  83_[+1]_59
+asu_can_3|NW_012236532.1          1.4e-05  84_[+1]_58
+asu_can_20|NW_012236522.          1.4e-05  83_[+1]_59
+asu_can_18|NW_012236504.          1.4e-05  82_[+1]_60
+asu_can_17|NW_012236504.          1.4e-05  89_[+1]_53
+dpu_can_122|scaffold_60:          2.8e-05  83_[+1]_59
+dpu_can_11|scaffold_153:          2.8e-05  83_[+1]_59
+dpu_can_347|scaffold_6:3          2.8e-05  85_[+1]_57
+dpu_can_131|scaffold_29:          2.8e-05  86_[+1]_56
+dpu_can_115|scaffold_6:1          2.8e-05  84_[+1]_58
+dpu_can_118|scaffold_243          2.8e-05  85_[+1]_57
+dpu_can_2|scaffold_20:98          2.8e-05  81_[+1]_61
+dla_can_3|LODT01000020.1          2.8e-05  84_[+1]_58
+dfa_can_62|NW_004457723.          2.8e-05  79_[+1]_63
+dfa_can_76|NW_004457723.          2.8e-05  79_[+1]_63
+r31|DDB0232432:1473309-1          2.8e-05  72_[+1]_70
+asu_can_5|NW_012236506.1          2.8e-05  82_[+1]_60
+asu_can_2|NW_012236506.1          2.8e-05  83_[+1]_59
+asu_can_37|NW_012236530.          2.8e-05  83_[+1]_59
+dla_can_88|LODT01000004.          8.1e-05  82_[+1]_60
+ddi_can_398|DDB0232430:1          9.1e-05  48_[+1]_94
+ppa_can_6|NW_008805092.1          0.00013  83_[+1]_59
+ppa_can_98|NW_008805076.          0.00013  83_[+1]_59
+ppa_can_97|NW_008805063.          0.00013  81_[+1]_61
+ppa_can_3|NW_008805092.1          0.00013  81_[+1]_61
+ppa_can_10|NW_008805063.          0.00013  83_[+1]_59
+ppa_can_2|NW_008805092.1          0.00013  80_[+1]_62
+ppa_can_4|NW_008805092.1          0.00013  83_[+1]_59
+ppa_can_1|NW_008805089.1          0.00013  84_[+1]_58
+ppa_can_8|NW_008805063.1          0.00013  84_[+1]_58
+ppa_can_96|NW_008805092.          0.00013  80_[+1]_62
+ppa_can_9|NW_008805092.1          0.00013  80_[+1]_62
+ppa_can_13|NW_008805072.          0.00013  81_[+1]_61
+ppa_can_5|NW_008805092.1          0.00013  82_[+1]_60
+dla_can_9|LODT01000047.1          0.00013  81_[+1]_61
+dla_can_26|LODT01000039.          0.00013  81_[+1]_61
+dla_can_7|LODT01000039.1          0.00013  82_[+1]_60
+dla_can_11|LODT01000022.          0.00013  81_[+1]_61
+dla_can_87|LODT01000022.          0.00013  83_[+1]_59
+dla_can_27|LODT01000022.          0.00013  82_[+1]_60
+dla_can_6|LODT01000020.1          0.00013  82_[+1]_60
+dla_can_85|LODT01000035.          0.00013  84_[+1]_58
+dla_can_5|LODT01000037.1          0.00013  82_[+1]_60
+dla_can_1|LODT01000011.1          0.00013  84_[+1]_58
+dla_can_2|LODT01000006.1          0.00013  80_[+1]_62
+dla_can_4|LODT01000006.1          0.00013  80_[+1]_62
+asu_can_4|NW_012236522.1          0.00013  81_[+1]_61
+asu_can_26|NW_012236522.          0.00013  83_[+1]_59
+asu_can_39|NW_012236528.          0.00013  83_[+1]_59
+asu_can_40|NW_012236528.          0.00013  83_[+1]_59
+dla_can_46|LODT01000004.          0.00015  84_[+1]_58
+r23B|DDB0232431:1667000-          0.00015  70_[+1]_72
+asu_can_1|NW_012236527.1          0.00015  81_[+1]_61
+r57|DDB0232431:2793377-2          0.00018  72_[+1]_70
+r56|DDB0232431:2792237-2           0.0002  54_[+1]_88
+asu_can_21|NW_012236504.          0.00022  83_[+1]_59
+asu_can_36|NW_012236504.          0.00023  81_[+1]_61
+r45|DDB0232429:8304008-8          0.00024  135_[+1]_7
+ddi_can_131|DDB0232432:5          0.00031  10_[+1]_132
+dla_can_176|LODT01000004          0.00042  49_[+1]_93
+ppa_can_100|NW_008805072          0.00047  36_[+1]_106
+ppa_can_235|NW_008805066          0.00062  42_[+1]_100
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF WCCCATAA width=8 seqs=113
+dpu_can_124|scaffold_315 (   85) TCCCACAA  1 
+dpu_can_123|scaffold_461 (   84) TCCCACAA  1 
+dpu_can_121|scaffold_509 (   84) TCCCACAA  1 
+r42|DDB0232429:4084651-4 (   83) TCCCACAA  1 
+r46|DDB0232430:1100444-1 (   69) TCCCACAA  1 
+r26|DDB0232431:1668050-1 (   73) TCCCACAA  1 
+r44|DDB0232429:5966088-5 (   76) TCCCACAA  1 
+r24B|DDB0232431:1675708- (   70) TCCCACAA  1 
+r62|DDB0232433:3354080-3 (   74) TCCCACAA  1 
+r29|DDB0232429:8304368-8 (   58) TCCCACAA  1 
+r21|DDB0232431:956876-95 (   53) TCCCACAA  1 
+r54|DDB0232431:1675814-1 (   64) TCCCACAA  1 
+r34|DDB0232431:3574887-3 (   68) TCCCACAA  1 
+r24A|DDB0232431:1663732- (   73) TCCCACAA  1 
+r51|DDB0232431:959643-95 (   54) TCCCACAA  1 
+r47|DDB0232430:1101641-1 (   59) TCCCACAA  1 
+r25|DDB0232430:1101112-1 (   70) TCCCACAA  1 
+r49|DDB0232431:958300-95 (   71) TCCCACAA  1 
+r60|DDB0232433:2298020-2 (   69) TCCCACAA  1 
+r52|DDB0232431:961440-96 (   72) TCCCACAA  1 
+r59|DDB0232433:2295028-2 (   68) TCCCACAA  1 
+r32|DDB0232431:2793765-2 (   56) TCCCACAA  1 
+r41|DDB0232429:5946841-5 (   57) TCCCACAA  1 
+dpu_can_127|scaffold_185 (   87) TCCCATAA  1 
+dpu_can_591|scaffold_509 (   85) TCCCATAA  1 
+dpu_can_116|scaffold_35: (   82) TCCCATAA  1 
+dpu_can_240|scaffold_53: (   86) TCCCATAA  1 
+dpu_can_304|scaffold_227 (   86) TCCCATAA  1 
+dpu_can_237|scaffold_74: (   85) TCCCATAA  1 
+dpu_can_120|scaffold_461 (   86) TCCCATAA  1 
+dpu_can_302|scaffold_138 (   83) TCCCATAA  1 
+dpu_can_241|scaffold_404 (   83) TCCCATAA  1 
+dpu_can_303|scaffold_41: (  100) TCCCATAA  1 
+dpu_can_117|scaffold_41: (   85) TCCCATAA  1 
+dpu_can_119|scaffold_315 (   86) TCCCATAA  1 
+dpu_can_305|scaffold_234 (   83) TCCCATAA  1 
+dpu_can_1|scaffold_250:1 (   83) TCCCATAA  1 
+dpu_can_242|scaffold_95: (   85) TCCCATAA  1 
+dpu_can_239|scaffold_459 (   85) TCCCATAA  1 
+dfa_can_1|NW_004457695.1 (   82) TCCCATAA  1 
+dfa_can_113|NW_004457644 (   82) TCCCATAA  1 
+dfa_can_81|NW_004457736. (  124) TCCCATAA  1 
+dfa_can_77|NW_004457735. (   79) TCCCATAA  1 
+r36|DDB0232430:2300574-2 (   83) TCCCATAA  1 
+r23A|DDB0232431:1668862- (   70) TCCCATAA  1 
+r28|DDB0232428:1449693-1 (   70) TCCCATAA  1 
+r33|DDB0232430:4352740-4 (   71) TCCCATAA  1 
+r30|DDB0232428:4375387-4 (   71) TCCCATAA  1 
+r23C|DDB0232431:1662745- (   70) TCCCATAA  1 
+r22|DDB0232431:960337-96 (   73) TCCCATAA  1 
+r35|DDB0232428:3001042-3 (   85) TCCCATAA  1 
+asu_can_19|NW_012236531. (   84) TCCCATAA  1 
+asu_can_3|NW_012236532.1 (   85) TCCCATAA  1 
+asu_can_20|NW_012236522. (   84) TCCCATAA  1 
+asu_can_18|NW_012236504. (   83) TCCCATAA  1 
+asu_can_17|NW_012236504. (   90) TCCCATAA  1 
+dpu_can_122|scaffold_60: (   84) ACCCATAA  1 
+dpu_can_11|scaffold_153: (   84) ACCCATAA  1 
+dpu_can_347|scaffold_6:3 (   86) ACCCATAA  1 
+dpu_can_131|scaffold_29: (   87) ACCCATAA  1 
+dpu_can_115|scaffold_6:1 (   85) ACCCATAA  1 
+dpu_can_118|scaffold_243 (   86) ACCCATAA  1 
+dpu_can_2|scaffold_20:98 (   82) ACCCATAA  1 
+dla_can_3|LODT01000020.1 (   85) ACCCATAA  1 
+dfa_can_62|NW_004457723. (   80) ACCCATAA  1 
+dfa_can_76|NW_004457723. (   80) ACCCATAA  1 
+r31|DDB0232432:1473309-1 (   73) ACCCATAA  1 
+asu_can_5|NW_012236506.1 (   83) ACCCATAA  1 
+asu_can_2|NW_012236506.1 (   84) ACCCATAA  1 
+asu_can_37|NW_012236530. (   84) ACCCATAA  1 
+dla_can_88|LODT01000004. (   83) TACCATAA  1 
+ddi_can_398|DDB0232430:1 (   49) AACCACAA  1 
+ppa_can_6|NW_008805092.1 (   84) AACCATAA  1 
+ppa_can_98|NW_008805076. (   84) AACCATAA  1 
+ppa_can_97|NW_008805063. (   82) AACCATAA  1 
+ppa_can_3|NW_008805092.1 (   82) AACCATAA  1 
+ppa_can_10|NW_008805063. (   84) AACCATAA  1 
+ppa_can_2|NW_008805092.1 (   81) AACCATAA  1 
+ppa_can_4|NW_008805092.1 (   84) AACCATAA  1 
+ppa_can_1|NW_008805089.1 (   85) AACCATAA  1 
+ppa_can_8|NW_008805063.1 (   85) AACCATAA  1 
+ppa_can_96|NW_008805092. (   81) AACCATAA  1 
+ppa_can_9|NW_008805092.1 (   81) AACCATAA  1 
+ppa_can_13|NW_008805072. (   82) AACCATAA  1 
+ppa_can_5|NW_008805092.1 (   83) AACCATAA  1 
+dla_can_9|LODT01000047.1 (   82) AACCATAA  1 
+dla_can_26|LODT01000039. (   82) AACCATAA  1 
+dla_can_7|LODT01000039.1 (   83) AACCATAA  1 
+dla_can_11|LODT01000022. (   82) AACCATAA  1 
+dla_can_87|LODT01000022. (   84) AACCATAA  1 
+dla_can_27|LODT01000022. (   83) AACCATAA  1 
+dla_can_6|LODT01000020.1 (   83) AACCATAA  1 
+dla_can_85|LODT01000035. (   85) AACCATAA  1 
+dla_can_5|LODT01000037.1 (   83) AACCATAA  1 
+dla_can_1|LODT01000011.1 (   85) AACCATAA  1 
+dla_can_2|LODT01000006.1 (   81) AACCATAA  1 
+dla_can_4|LODT01000006.1 (   81) AACCATAA  1 
+asu_can_4|NW_012236522.1 (   82) AACCATAA  1 
+asu_can_26|NW_012236522. (   84) AACCATAA  1 
+asu_can_39|NW_012236528. (   84) AACCATAA  1 
+asu_can_40|NW_012236528. (   84) AACCATAA  1 
+dla_can_46|LODT01000004. (   85) TCCCATAT  1 
+r23B|DDB0232431:1667000- (   71) TCCCATAT  1 
+asu_can_1|NW_012236527.1 (   82) TCCCATAT  1 
+r57|DDB0232431:2793377-2 (   73) TCCCAAAA  1 
+r56|DDB0232431:2792237-2 (   55) ACCCAAAA  1 
+asu_can_21|NW_012236504. (   84) GACCATAA  1 
+asu_can_36|NW_012236504. (   82) CACCATAA  1 
+r45|DDB0232429:8304008-8 (  136) TACCACAT  1 
+ddi_can_131|DDB0232432:5 (   11) TACCATAG  1 
+dla_can_176|LODT01000004 (   50) TACCATCA  1 
+ppa_can_100|NW_008805072 (   37) TTCCACAA  1 
+ppa_can_235|NW_008805066 (   43) ACCCAAAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 18018 bayes= 7.92568 E= 1.4e-156 
+     7   -357   -343     48 
+   -29    268  -1346   -553 
+ -1346    325  -1346  -1346 
+ -1346    325  -1346  -1346 
+   136  -1346  -1346  -1346 
+  -387    113  -1346     85 
+   135   -357  -1346  -1346 
+   129  -1346   -343   -322 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 113 E= 1.4e-156 
+ 0.407080  0.008850  0.008850  0.575221 
+ 0.318584  0.672566  0.000000  0.008850 
+ 0.000000  1.000000  0.000000  0.000000 
+ 0.000000  1.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.026549  0.230088  0.000000  0.743363 
+ 0.991150  0.008850  0.000000  0.000000 
+ 0.946903  0.000000  0.008850  0.044248 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif WCCCATAA MEME-1 regular expression
+--------------------------------------------------------------------------------
+[TA][CA]CCA[TC]AA
+--------------------------------------------------------------------------------
+
+
+
+
+Time  8.87 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF DGGAGGAT MEME-2	width =   8  sites =  20  llr = 207  E-value = 3.4e-010
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 Description
+--------------------------------------------------------------------------------
+Simplified        A  4::a::91
+pos.-specific     C  :1:::1::
+probability       G  4a9:9a1:
+matrix            T  3:1:2:1a
+
+         bits    3.4         
+                 3.1  *   *  
+                 2.7  **  *  
+                 2.4  ** **  
+Relative         2.0  ** **  
+Entropy          1.7  ** **  
+(14.9 bits)      1.4  *****  
+                 1.0  ***** *
+                 0.7  *******
+                 0.3 ********
+                 0.0 --------
+
+Multilevel           AGGAGGAT
+consensus            G       
+sequence             T       
+                             
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value              Site
+-------------             ----- ---------            --------
+dpu_can_240|scaffold_53:     74  4.86e-07 GATTGTGGTA GGGAGGAT ATTCTCCCAT
+dpu_can_304|scaffold_227     72  4.86e-07 ATTATAGGTA GGGAGGAT ATTTAGTCCC
+dpu_can_241|scaffold_404     69  4.86e-07 GATTGTGGCA GGGAGGAT ATTTAGTCCC
+dpu_can_305|scaffold_234     69  4.86e-07 ATTATAGGTA GGGAGGAT ATTTAGTCCC
+dpu_can_242|scaffold_95:     71  4.86e-07 GATTGTGGTA GGGAGGAT ATTTAGTCCC
+dpu_can_239|scaffold_459     71  4.86e-07 TGGTATGGTA GGGAGGAT ATTTAGTCCC
+dpu_can_127|scaffold_185     68  2.47e-06 TTTGGATAAA AGGAGGAT TATTTATTTA
+r23B|DDB0232431:1667000-     59  2.47e-06 AAAAGATTTG AGGAGGAT TGGATCCCAT
+r23A|DDB0232431:1668862-     58  2.47e-06 AAAAAAATTT AGGAGGAT TGGATCCCAT
+r23C|DDB0232431:1662745-     58  2.47e-06 AAAAGAATTT AGGAGGAT TGGATCCCAT
+asu_can_36|NW_012236504.     97  1.19e-05 TAACCAATCC AGGAGGTT ATGGAGTTTT
+dla_can_176|LODT01000004    106  1.62e-05 GATAATCTTG TGGAGGTT GTATTTGCAA
+r22|DDB0232431:960337-96     61  3.11e-05 ATAAGAATTT AGGATGAT CAAATCCCAT
+r52|DDB0232431:961440-96      6  3.39e-05      TAGTT TGGAGGAA GGTATTCTTA
+asu_can_40|NW_012236528.      4  3.39e-05        GTC GGGATGGT CGTattcttg
+ppa_can_100|NW_008805072     80  3.85e-05 GATTGGCAGA TGGAGCAT CTACCTCAAC
+dfa_can_77|NW_004457735.     68  3.85e-05 ataatctttc TCGAGGAT TCTTCCCATA
+dpu_can_125|scaffold_554    116  5.61e-05 TATATCATTA AGTAGGAT TTTTTTTAAA
+dla_can_4|LODT01000006.1     11  5.61e-05 AACTTGATCA TGGATGAT CCtcttaaaa
+dfa_can_62|NW_004457723.    132  5.61e-05 TATCGATGAG AGTAGGAT GCATTCTCAA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+dpu_can_240|scaffold_53:          4.9e-07  73_[+2]_69
+dpu_can_304|scaffold_227          4.9e-07  71_[+2]_71
+dpu_can_241|scaffold_404          4.9e-07  68_[+2]_74
+dpu_can_305|scaffold_234          4.9e-07  68_[+2]_74
+dpu_can_242|scaffold_95:          4.9e-07  70_[+2]_72
+dpu_can_239|scaffold_459          4.9e-07  70_[+2]_72
+dpu_can_127|scaffold_185          2.5e-06  67_[+2]_75
+r23B|DDB0232431:1667000-          2.5e-06  58_[+2]_84
+r23A|DDB0232431:1668862-          2.5e-06  57_[+2]_85
+r23C|DDB0232431:1662745-          2.5e-06  57_[+2]_85
+asu_can_36|NW_012236504.          1.2e-05  96_[+2]_46
+dla_can_176|LODT01000004          1.6e-05  105_[+2]_37
+r22|DDB0232431:960337-96          3.1e-05  60_[+2]_82
+r52|DDB0232431:961440-96          3.4e-05  5_[+2]_137
+asu_can_40|NW_012236528.          3.4e-05  3_[+2]_139
+ppa_can_100|NW_008805072          3.9e-05  79_[+2]_63
+dfa_can_77|NW_004457735.          3.9e-05  67_[+2]_75
+dpu_can_125|scaffold_554          5.6e-05  115_[+2]_27
+dla_can_4|LODT01000006.1          5.6e-05  10_[+2]_132
+dfa_can_62|NW_004457723.          5.6e-05  131_[+2]_11
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF DGGAGGAT width=8 seqs=20
+dpu_can_240|scaffold_53: (   74) GGGAGGAT  1 
+dpu_can_304|scaffold_227 (   72) GGGAGGAT  1 
+dpu_can_241|scaffold_404 (   69) GGGAGGAT  1 
+dpu_can_305|scaffold_234 (   69) GGGAGGAT  1 
+dpu_can_242|scaffold_95: (   71) GGGAGGAT  1 
+dpu_can_239|scaffold_459 (   71) GGGAGGAT  1 
+dpu_can_127|scaffold_185 (   68) AGGAGGAT  1 
+r23B|DDB0232431:1667000- (   59) AGGAGGAT  1 
+r23A|DDB0232431:1668862- (   58) AGGAGGAT  1 
+r23C|DDB0232431:1662745- (   58) AGGAGGAT  1 
+asu_can_36|NW_012236504. (   97) AGGAGGTT  1 
+dla_can_176|LODT01000004 (  106) TGGAGGTT  1 
+r22|DDB0232431:960337-96 (   61) AGGATGAT  1 
+r52|DDB0232431:961440-96 (    6) TGGAGGAA  1 
+asu_can_40|NW_012236528. (    4) GGGATGGT  1 
+ppa_can_100|NW_008805072 (   80) TGGAGCAT  1 
+dfa_can_77|NW_004457735. (   68) TCGAGGAT  1 
+dpu_can_125|scaffold_554 (  116) AGTAGGAT  1 
+dla_can_4|LODT01000006.1 (   11) TGGATGAT  1 
+dfa_can_62|NW_004457723. (  132) AGTAGGAT  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 8 n= 18018 bayes= 10.7578 E= 3.4e-010 
+     4  -1097    188    -72 
+ -1097   -107    332  -1097 
+ -1097  -1097    324   -204 
+   136  -1097  -1097  -1097 
+ -1097  -1097    316   -145 
+ -1097   -107    332  -1097 
+   113  -1097    -93   -204 
+  -295  -1097  -1097    121 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 8 nsites= 20 E= 3.4e-010 
+ 0.400000  0.000000  0.350000  0.250000 
+ 0.000000  0.050000  0.950000  0.000000 
+ 0.000000  0.000000  0.900000  0.100000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.850000  0.150000 
+ 0.000000  0.050000  0.950000  0.000000 
+ 0.850000  0.000000  0.050000  0.100000 
+ 0.050000  0.000000  0.000000  0.950000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif DGGAGGAT MEME-2 regular expression
+--------------------------------------------------------------------------------
+[AGT]GGAGGAT
+--------------------------------------------------------------------------------
+
+
+
+
+Time 17.25 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+MOTIF AAATGTG MEME-3	width =   7  sites =  25  llr = 233  E-value = 6.2e-008
+********************************************************************************
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 Description
+--------------------------------------------------------------------------------
+Simplified        A  aaa::::
+pos.-specific     C  :::::::
+probability       G  ::::a:a
+matrix            T  :::a:a:
+
+         bits    3.4     * *
+                 3.1     * *
+                 2.7     * *
+                 2.4     * *
+Relative         2.0     * *
+Entropy          1.7     * *
+(13.4 bits)      1.4 *******
+                 1.0 *******
+                 0.7 *******
+                 0.3 *******
+                 0.0 -------
+
+Multilevel           AAATGTG
+consensus                   
+sequence                    
+                            
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 sites sorted by position p-value
+--------------------------------------------------------------------------------
+Sequence name             Start   P-value             Site
+-------------             ----- ---------            -------
+dla_can_6|LODT01000020.1    132  8.96e-05 atataagaTA AAATGTG ATAATTATCG
+r46|DDB0232430:1100444-1    131  8.96e-05 ATCTTTTTTT AAATGTG TTAAACATTG
+r26|DDB0232431:1668050-1    134  8.96e-05 ATCTTTTTTT AAATGTG CAAACATTTA
+r23B|DDB0232431:1667000-    131  8.96e-05 CATTTTAAGA AAATGTG AGAAACATTA
+r24B|DDB0232431:1675708-    131  8.96e-05 ATCTTTTTTT AAATGTG TAAAACATTT
+r62|DDB0232433:3354080-3    133  8.96e-05 TCTTTTTTTT AAATGTG TAAAACATTT
+r23A|DDB0232431:1668862-    131  8.96e-05 CATTTTAAGA AAATGTG AGAAACATTA
+r57|DDB0232431:2793377-2    134  8.96e-05 TTTTATTTTA AAATGTG AAAACAATTA
+r45|DDB0232429:8304008-8    111  8.96e-05 CCTTTTTTTT AAATGTG AAAAAAAAAA
+r29|DDB0232429:8304368-8    120  8.96e-05 TTAAATGAGA AAATGTG AAAAGTAATC
+r50|DDB0232431:959145-95    131  8.96e-05 CATTTTAAGA AAATGTG AAAAACATTA
+r21|DDB0232431:956876-95    115  8.96e-05 ATCTTTTTTC AAATGTG TAAAACATTT
+r54|DDB0232431:1675814-1    124  8.96e-05 ATTTTATTTG AAATGTG AATGTAATCA
+r56|DDB0232431:2792237-2    116  8.96e-05 ATTAAAACTA AAATGTG AAAAATATAA
+r34|DDB0232431:3574887-3    129  8.96e-05 TGATATATTA AAATGTG ATAAATCACA
+r24A|DDB0232431:1663732-    134  8.96e-05 ATCTTTATTT AAATGTG TAAACATTTA
+r51|DDB0232431:959643-95    115  8.96e-05 ATCTTTTTTT AAATGTG TAAAACATTT
+r47|DDB0232430:1101641-1    121  8.96e-05 TTTTATCTTG AAATGTG AAAGTAATCA
+r23C|DDB0232431:1662745-    131  8.96e-05 CATTTTAAGA AAATGTG AGAAACATTA
+r22|DDB0232431:960337-96    131  8.96e-05 GATTTAAAGA AAATGTG AAAAAAATTA
+r49|DDB0232431:958300-95    131  8.96e-05 TATCTTTTTT AAATGTG TAAAACATTT
+r60|DDB0232433:2298020-2    130  8.96e-05 AAAAATAATT AAATGTG CAAAAACACA
+r52|DDB0232431:961440-96    133  8.96e-05 ATCTTATTAA AAATGTG TAAAACATTT
+r59|DDB0232433:2295028-2    130  8.96e-05 AAAAATAATT AAATGTG CAAAAACACA
+ddi_can_1|DDB0232431:166    123  8.96e-05 TTTTTTTTTG AAATGTG AATGCAATCA
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 block diagrams
+--------------------------------------------------------------------------------
+SEQUENCE NAME            POSITION P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+dla_can_6|LODT01000020.1            9e-05  131_[+3]_12
+r46|DDB0232430:1100444-1            9e-05  130_[+3]_13
+r26|DDB0232431:1668050-1            9e-05  133_[+3]_10
+r23B|DDB0232431:1667000-            9e-05  130_[+3]_13
+r24B|DDB0232431:1675708-            9e-05  130_[+3]_13
+r62|DDB0232433:3354080-3            9e-05  132_[+3]_11
+r23A|DDB0232431:1668862-            9e-05  130_[+3]_13
+r57|DDB0232431:2793377-2            9e-05  133_[+3]_10
+r45|DDB0232429:8304008-8            9e-05  110_[+3]_33
+r29|DDB0232429:8304368-8            9e-05  119_[+3]_24
+r50|DDB0232431:959145-95            9e-05  130_[+3]_13
+r21|DDB0232431:956876-95            9e-05  114_[+3]_29
+r54|DDB0232431:1675814-1            9e-05  123_[+3]_20
+r56|DDB0232431:2792237-2            9e-05  115_[+3]_28
+r34|DDB0232431:3574887-3            9e-05  128_[+3]_15
+r24A|DDB0232431:1663732-            9e-05  133_[+3]_10
+r51|DDB0232431:959643-95            9e-05  114_[+3]_29
+r47|DDB0232430:1101641-1            9e-05  120_[+3]_23
+r23C|DDB0232431:1662745-            9e-05  130_[+3]_13
+r22|DDB0232431:960337-96            9e-05  130_[+3]_13
+r49|DDB0232431:958300-95            9e-05  130_[+3]_13
+r60|DDB0232433:2298020-2            9e-05  129_[+3]_14
+r52|DDB0232431:961440-96            9e-05  132_[+3]_11
+r59|DDB0232433:2295028-2            9e-05  129_[+3]_14
+ddi_can_1|DDB0232431:166            9e-05  122_[+3]_21
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 in BLOCKS format
+--------------------------------------------------------------------------------
+BL   MOTIF AAATGTG width=7 seqs=25
+dla_can_6|LODT01000020.1 (  132) AAATGTG  1 
+r46|DDB0232430:1100444-1 (  131) AAATGTG  1 
+r26|DDB0232431:1668050-1 (  134) AAATGTG  1 
+r23B|DDB0232431:1667000- (  131) AAATGTG  1 
+r24B|DDB0232431:1675708- (  131) AAATGTG  1 
+r62|DDB0232433:3354080-3 (  133) AAATGTG  1 
+r23A|DDB0232431:1668862- (  131) AAATGTG  1 
+r57|DDB0232431:2793377-2 (  134) AAATGTG  1 
+r45|DDB0232429:8304008-8 (  111) AAATGTG  1 
+r29|DDB0232429:8304368-8 (  120) AAATGTG  1 
+r50|DDB0232431:959145-95 (  131) AAATGTG  1 
+r21|DDB0232431:956876-95 (  115) AAATGTG  1 
+r54|DDB0232431:1675814-1 (  124) AAATGTG  1 
+r56|DDB0232431:2792237-2 (  116) AAATGTG  1 
+r34|DDB0232431:3574887-3 (  129) AAATGTG  1 
+r24A|DDB0232431:1663732- (  134) AAATGTG  1 
+r51|DDB0232431:959643-95 (  115) AAATGTG  1 
+r47|DDB0232430:1101641-1 (  121) AAATGTG  1 
+r23C|DDB0232431:1662745- (  131) AAATGTG  1 
+r22|DDB0232431:960337-96 (  131) AAATGTG  1 
+r49|DDB0232431:958300-95 (  131) AAATGTG  1 
+r60|DDB0232433:2298020-2 (  130) AAATGTG  1 
+r52|DDB0232431:961440-96 (  133) AAATGTG  1 
+r59|DDB0232433:2295028-2 (  130) AAATGTG  1 
+ddi_can_1|DDB0232431:166 (  123) AAATGTG  1 
+//
+
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 position-specific scoring matrix
+--------------------------------------------------------------------------------
+log-odds matrix: alength= 4 w= 7 n= 18144 bayes= 9.20931 E= 6.2e-008 
+   136  -1129  -1129  -1129 
+   136  -1129  -1129  -1129 
+   136  -1129  -1129  -1129 
+ -1129  -1129  -1129    128 
+ -1129  -1129    339  -1129 
+ -1129  -1129  -1129    128 
+ -1129  -1129    339  -1129 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 position-specific probability matrix
+--------------------------------------------------------------------------------
+letter-probability matrix: alength= 4 w= 7 nsites= 25 E= 6.2e-008 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 1.000000  0.000000  0.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+ 0.000000  0.000000  0.000000  1.000000 
+ 0.000000  0.000000  1.000000  0.000000 
+--------------------------------------------------------------------------------
+
+--------------------------------------------------------------------------------
+	Motif AAATGTG MEME-3 regular expression
+--------------------------------------------------------------------------------
+AAATGTG
+--------------------------------------------------------------------------------
+
+
+
+
+Time 25.58 secs.
+
+********************************************************************************
+
+
+********************************************************************************
+SUMMARY OF MOTIFS
+********************************************************************************
+
+--------------------------------------------------------------------------------
+	Combined block diagrams: non-overlapping sites with p-value < 0.0001
+--------------------------------------------------------------------------------
+SEQUENCE NAME            COMBINED P-VALUE  MOTIF DIAGRAM
+-------------            ----------------  -------------
+asu_can_40|NW_012236528.         2.65e-03  3_[+2(3.39e-05)]_139
+asu_can_39|NW_012236528.         9.36e-02  150
+asu_can_17|NW_012236504.         5.54e-03  89_[+1(1.43e-05)]_53
+asu_can_18|NW_012236504.         2.86e-02  82_[+1(1.43e-05)]_60
+asu_can_37|NW_012236530.         5.03e-03  83_[+1(2.79e-05)]_59
+asu_can_38|NW_012236529.         9.43e-01  150
+asu_can_20|NW_012236522.         1.26e-02  83_[+1(1.43e-05)]_59
+asu_can_3|NW_012236532.1         3.43e-03  84_[+1(1.43e-05)]_58
+asu_can_26|NW_012236522.         2.93e-02  150
+asu_can_21|NW_012236504.         1.69e-01  150
+asu_can_36|NW_012236504.         3.02e-03  96_[+2(1.19e-05)]_27_[+2(5.61e-05)]_\
+    11
+asu_can_19|NW_012236531.         3.43e-03  83_[+1(1.43e-05)]_59
+asu_can_4|NW_012236522.1         1.66e-01  150
+asu_can_2|NW_012236506.1         5.26e-03  83_[+1(2.79e-05)]_59
+asu_can_1|NW_012236527.1         1.52e-01  150
+asu_can_5|NW_012236506.1         1.20e-04  82_[+1(2.79e-05)]_60
+r41|DDB0232429:5946841-5         9.18e-04  56_[+1(2.92e-06)]_86
+r31|DDB0232432:1473309-1         5.33e-03  72_[+1(2.79e-05)]_70
+r32|DDB0232431:2793765-2         2.67e-03  55_[+1(2.92e-06)]_87
+ddi_can_1|DDB0232431:166         6.71e-02  122_[+3(8.96e-05)]_21
+r59|DDB0232433:2295028-2         4.18e-04  67_[+1(2.92e-06)]_54_[+3(8.96e-05)]_\
+    14
+r52|DDB0232431:961440-96         4.43e-06  5_[+2(3.39e-05)]_58_[+1(2.92e-06)]_\
+    53_[+3(8.96e-05)]_11
+r60|DDB0232433:2298020-2         1.59e-04  68_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    14
+r49|DDB0232431:958300-95         1.53e-04  70_[+1(2.92e-06)]_52_[+3(8.96e-05)]_\
+    13
+r25|DDB0232430:1101112-1         2.69e-03  69_[+1(2.92e-06)]_73
+r35|DDB0232428:3001042-3         5.05e-02  84_[+1(1.43e-05)]_58
+r22|DDB0232431:960337-96         1.68e-05  60_[+2(3.11e-05)]_4_[+1(1.43e-05)]_\
+    50_[+3(8.96e-05)]_13
+r23C|DDB0232431:1662745-         1.77e-06  57_[+2(2.47e-06)]_4_[+1(1.43e-05)]_\
+    53_[+3(8.96e-05)]_13
+r47|DDB0232430:1101641-1         4.62e-04  58_[+1(2.92e-06)]_54_[+3(8.96e-05)]_\
+    23
+r51|DDB0232431:959643-95         2.52e-04  53_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    29
+r24A|DDB0232431:1663732-         4.56e-04  72_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    10
+r34|DDB0232431:3574887-3         4.58e-04  67_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    15
+r56|DDB0232431:2792237-2         1.38e-02  115_[+3(8.96e-05)]_28
+r30|DDB0232428:4375387-4         8.56e-03  70_[+1(1.43e-05)]_72
+r43|DDB0232429:4084971-4         5.35e-01  150
+r54|DDB0232431:1675814-1         3.93e-04  63_[+1(2.92e-06)]_52_[+3(8.96e-05)]_\
+    20
+r21|DDB0232431:956876-95         4.61e-04  52_[+1(2.92e-06)]_54_[+3(8.96e-05)]_\
+    29
+ddi_can_398|DDB0232430:1         4.71e-02  48_[+1(9.10e-05)]_94
+r33|DDB0232430:4352740-4         2.88e-02  70_[+1(1.43e-05)]_72
+r50|DDB0232431:959145-95         2.73e-02  130_[+3(8.96e-05)]_13
+r29|DDB0232429:8304368-8         2.29e-04  57_[+1(2.92e-06)]_54_[+3(8.96e-05)]_\
+    24
+ddi_can_2|DDB0232431:957         4.36e-01  150
+r45|DDB0232429:8304008-8         1.67e-02  110_[+3(8.96e-05)]_33
+r28|DDB0232428:1449693-1         8.85e-03  69_[+1(1.43e-05)]_73
+r57|DDB0232431:2793377-2         1.17e-02  133_[+3(8.96e-05)]_10
+r23A|DDB0232431:1668862-         1.77e-06  57_[+2(2.47e-06)]_4_[+1(1.43e-05)]_\
+    53_[+3(8.96e-05)]_13
+r36|DDB0232430:2300574-2         2.52e-02  82_[+1(1.43e-05)]_60
+r62|DDB0232433:3354080-3         4.51e-04  73_[+1(2.92e-06)]_51_[+3(8.96e-05)]_\
+    11
+r24B|DDB0232431:1675708-         4.60e-04  69_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    13
+r23B|DDB0232431:1667000-         1.45e-05  58_[+2(2.47e-06)]_64_[+3(8.96e-05)]_\
+    13
+ddi_can_131|DDB0232432:5         1.19e-01  150
+r44|DDB0232429:5966088-5         7.73e-03  75_[+1(2.92e-06)]_67
+r26|DDB0232431:1668050-1         3.83e-04  72_[+1(2.92e-06)]_53_[+3(8.96e-05)]_\
+    10
+r46|DDB0232430:1100444-1         4.62e-04  68_[+1(2.92e-06)]_54_[+3(8.96e-05)]_\
+    13
+r42|DDB0232429:4084651-4         5.16e-03  82_[+1(2.92e-06)]_60
+dfa_can_76|NW_004457723.         1.79e-02  79_[+1(2.79e-05)]_63
+dfa_can_77|NW_004457735.         3.13e-04  67_[+2(3.85e-05)]_3_[+1(1.43e-05)]_\
+    64
+dfa_can_81|NW_004457736.         6.35e-04  123_[+1(1.43e-05)]_19
+dfa_can_62|NW_004457723.         7.56e-04  79_[+1(2.79e-05)]_44_[+2(5.61e-05)]_\
+    11
+dfa_can_113|NW_004457644         1.35e-02  81_[+1(1.43e-05)]_61
+dfa_can_1|NW_004457695.1         1.20e-02  81_[+1(1.43e-05)]_61
+dla_can_46|LODT01000004.         1.91e-01  150
+dla_can_172|LODT01000042         2.93e-01  150
+dla_can_4|LODT01000006.1         7.07e-03  10_[+2(5.61e-05)]_132
+dla_can_2|LODT01000006.1         1.04e-01  150
+dla_can_1|LODT01000011.1         1.75e-01  150
+dla_can_5|LODT01000037.1         8.02e-02  150
+dla_can_85|LODT01000035.         2.28e-01  150
+dla_can_6|LODT01000020.1         5.42e-03  131_[+3(8.96e-05)]_12
+dla_can_27|LODT01000022.         4.33e-02  150
+dla_can_87|LODT01000022.         1.05e-01  150
+dla_can_3|LODT01000020.1         4.11e-02  84_[+1(2.79e-05)]_58
+dla_can_248|LODT01000035         6.18e-01  150
+dla_can_11|LODT01000022.         1.07e-01  150
+dla_can_7|LODT01000039.1         6.10e-02  150
+dla_can_26|LODT01000039.         3.37e-02  150
+dla_can_88|LODT01000004.         5.74e-02  82_[+1(8.09e-05)]_60
+dla_can_176|LODT01000004         3.69e-03  105_[+2(1.62e-05)]_37
+dla_can_9|LODT01000047.1         1.82e-01  150
+dla_can_86|LODT01000037.         3.90e-01  150
+dpu_can_239|scaffold_459         1.87e-05  70_[+2(4.86e-07)]_6_[+1(1.43e-05)]_\
+    58
+dpu_can_348|scaffold_184         9.99e-01  150
+dpu_can_242|scaffold_95:         1.05e-05  70_[+2(4.86e-07)]_6_[+1(1.43e-05)]_\
+    58
+dpu_can_1|scaffold_250:1         5.30e-02  82_[+1(1.43e-05)]_60
+dpu_can_2|scaffold_20:98         8.14e-02  81_[+1(2.79e-05)]_61
+dpu_can_305|scaffold_234         1.97e-05  68_[+2(4.86e-07)]_6_[+1(1.43e-05)]_\
+    60
+dpu_can_118|scaffold_243         3.60e-02  85_[+1(2.79e-05)]_57
+dpu_can_125|scaffold_554         9.44e-02  115_[+2(5.61e-05)]_27
+dpu_can_119|scaffold_315         5.08e-02  85_[+1(1.43e-05)]_57
+dpu_can_121|scaffold_509         4.49e-03  83_[+1(2.92e-06)]_59
+dpu_can_117|scaffold_41:         2.86e-02  84_[+1(1.43e-05)]_58
+dpu_can_115|scaffold_6:1         3.57e-02  84_[+1(2.79e-05)]_58
+dpu_can_123|scaffold_461         7.21e-03  83_[+1(2.92e-06)]_59
+dpu_can_131|scaffold_29:         7.36e-02  86_[+1(2.79e-05)]_56
+dpu_can_347|scaffold_6:3         8.13e-02  85_[+1(2.79e-05)]_57
+dpu_can_303|scaffold_41:         3.39e-03  99_[+1(1.43e-05)]_43
+dpu_can_241|scaffold_404         1.05e-05  68_[+2(4.86e-07)]_6_[+1(1.43e-05)]_\
+    60
+dpu_can_302|scaffold_138         2.22e-02  82_[+1(1.43e-05)]_60
+dpu_can_120|scaffold_461         4.08e-02  85_[+1(1.43e-05)]_57
+dpu_can_237|scaffold_74:         1.91e-02  84_[+1(1.43e-05)]_58
+dpu_can_304|scaffold_227         1.97e-05  71_[+2(4.86e-07)]_6_[+1(1.43e-05)]_\
+    57
+dpu_can_11|scaffold_153:         8.08e-02  83_[+1(2.79e-05)]_59
+dpu_can_240|scaffold_53:         1.05e-05  73_[+2(4.86e-07)]_4_[+1(1.43e-05)]_\
+    57
+dpu_can_122|scaffold_60:         3.62e-02  83_[+1(2.79e-05)]_59
+dpu_can_116|scaffold_35:         1.66e-02  81_[+1(1.43e-05)]_61
+dpu_can_124|scaffold_315         1.49e-02  84_[+1(2.92e-06)]_58
+dpu_can_591|scaffold_509         5.00e-02  84_[+1(1.43e-05)]_58
+dpu_can_127|scaffold_185         4.39e-05  67_[+2(2.47e-06)]_11_[+1(1.43e-05)]_\
+    56
+ppa_can_5|NW_008805092.1         1.02e-01  150
+ppa_can_13|NW_008805072.         8.01e-02  150
+ppa_can_9|NW_008805092.1         9.81e-02  150
+ppa_can_100|NW_008805072         8.10e-03  79_[+2(3.85e-05)]_63
+ppa_can_96|NW_008805092.         1.86e-01  150
+ppa_can_26|NW_008805074.         3.23e-01  150
+ppa_can_8|NW_008805063.1         1.17e-02  150
+ppa_can_234|NW_008805068         9.12e-01  150
+ppa_can_1|NW_008805089.1         2.12e-01  150
+ppa_can_4|NW_008805092.1         1.29e-01  150
+ppa_can_2|NW_008805092.1         2.18e-01  150
+ppa_can_235|NW_008805066         6.86e-02  150
+ppa_can_10|NW_008805063.         1.10e-01  150
+ppa_can_3|NW_008805092.1         1.38e-01  150
+ppa_can_97|NW_008805063.         1.17e-01  150
+ppa_can_98|NW_008805076.         5.90e-02  150
+ppa_can_7|NW_008805092.1         1.54e-01  150
+ppa_can_6|NW_008805092.1         4.84e-02  150
+--------------------------------------------------------------------------------
+
+********************************************************************************
+
+
+********************************************************************************
+Stopped because requested number of motifs (3) found.
+********************************************************************************
+
+CPU: emp-85-225.eduroam.uu.se
+
+********************************************************************************

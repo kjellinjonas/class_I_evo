@@ -1,0 +1,1 @@
+Genomic sequences for D. discoideum and D. firmibasis as well as the the curated CLass I RNA sequences for these two organisms

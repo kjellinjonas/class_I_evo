@@ -1,0 +1,1 @@
+Result from Infernal CLass I RNA search in D. discoideum for model v1-6 of the CLass I CM model as well as the final search with increased sensitivity (maxSens)

@@ -1,0 +1,2 @@
+fasta/ddi_curated.fa	fasta/dicty_chromosomal.fa	ddi	annotations/ddi_curated.bed
+fasta/dfi_curated.fa	fasta/GCA_000277485.1_ASM27748v1_genomic.fna	dfi	annotations/dfi_curated.bed

@@ -1,0 +1,1 @@
+MEME output file of motif identfication 150 nt upstream of all CLass I RNA candidates identified in the CM search v6. Used for Classifier evaluation of candidates.

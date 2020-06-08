@@ -1,0 +1,1 @@
+curated_core_mea.txt - Structure prediction (mea - Maximum expected accuracty) of Class I RNAs in D. discoideum, D. purpureum, D. lacteum, P. pallidum, A. subglobosum and D. fasciculatum using RNAfold.
