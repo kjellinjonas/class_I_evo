@@ -2,6 +2,13 @@
 
 # requirements python 3.x, subprocess, Biopython, numpy, matplotlib, FIMO
 
+# Create output folders 
+mkdir analyses_output analyses_output/CM_search_output analyses_output/stem_mutations analyses_output/plots analyses_output/genomic_distribution \
+analyses_output/synteny analyses_output/fasta analyses_output/annotations analyses_output/classifier analyses_output/CM_search_output/ddi_v1 \
+analyses_output/CM_search_output/ddi_v2 analyses_output/CM_search_output/ddi_v3 analyses_output/CM_search_output/ddi_v4 \
+analyses_output/CM_search_output/ddi_v5 analyses_output/CM_search_output/ddi_v6
+
+
 # Parse CM search result
 echo "Example of parsing of results for D. discoideum CM searches"
 echo "Parsing model v1 CM output"
